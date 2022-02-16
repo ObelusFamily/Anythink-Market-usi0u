@@ -7,6 +7,7 @@ The Anythink Market backend is Node web app written with [Express](https://expre
 To start the app use: `./start.sh` from the backend directory.
 
 Make sure your DB is up and running.
+Follow the instructions to install locally for [MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) for [Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/) or for [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/)
 
 ## Dependencies
 
