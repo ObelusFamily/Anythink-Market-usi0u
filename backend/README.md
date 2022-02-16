@@ -11,6 +11,7 @@ Follow the instructions to install locally for [MacOS](https://docs.mongodb.com/
 
 ## Dependencies
 
+- [MongoDB](https://docs.mongodb.com/manual/installation/) - To work with local data
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
 - [mongoose](https://github.com/Automattic/mongoose) - For modeling and mapping MongoDB data to javascript
 - [mongoose-unique-validator](https://github.com/blakehaswell/mongoose-unique-validator) - For handling unique validation errors in Mongoose. Mongoose only handles validation at the document level, so a unique index across a collection will throw an exception at the driver level. The `mongoose-unique-validator` plugin helps us by formatting the error like a normal mongoose `ValidationError`.
