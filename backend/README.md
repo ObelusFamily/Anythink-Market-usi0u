@@ -7,7 +7,6 @@ The Anythink Market backend is Node web app written with [Express](https://expre
 To start the app use: `./start.sh` from the backend directory.
 
 Make sure your DB is up and running.
-Follow the instructions to install locally for [MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) for [Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/) or for [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/)
 
 ## Dependencies
 
@@ -17,6 +16,15 @@ Follow the instructions to install locally for [MacOS](https://docs.mongodb.com/
 - [mongoose-unique-validator](https://github.com/blakehaswell/mongoose-unique-validator) - For handling unique validation errors in Mongoose. Mongoose only handles validation at the document level, so a unique index across a collection will throw an exception at the driver level. The `mongoose-unique-validator` plugin helps us by formatting the error like a normal mongoose `ValidationError`.
 - [passport](https://github.com/jaredhanson/passport) - For handling user authentication
 - [slug](https://github.com/dodo/node-slug) - For encoding titles into a URL-friendly format
+
+## Configuration
+
+Create a local `.env` file to describe db connection.
+Use `.env.template` as a starting point.
+
+## Operation
+
+Follow the instructions to install locally for [MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) for [Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/) or for [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/).
 
 ## Application Structure
 
