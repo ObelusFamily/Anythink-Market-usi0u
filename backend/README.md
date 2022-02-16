@@ -26,6 +26,10 @@ Use `.env.template` as a starting point.
 
 Follow the instructions to install locally for [MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) for [Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/) or for [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/).
 
+## Troubleshooting
+
+Contact Ness with any issue
+
 ## Application Structure
 
 - `app.js` - The entry point to our application. This file defines our express server and connects it to MongoDB using mongoose. It also requires the routes and models we'll be using in the application.
